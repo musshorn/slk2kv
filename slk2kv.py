@@ -1,39 +1,9 @@
 import os
 import linecache
 import re
+import json
 
-#values i want from UnitBalance.slk 
-kvdict_bal = {
-'X23': '"StatusHealth"',
-'X25': '"StatusHealthRegen"',
-'X27': '"StatusMana"',
-'X30': '"StatusManaRegen"',
-'X31': '"ArmorPhysical"',
-'X35': '"MovementSpeed"',
-'X40': '"VisionDaytimeRange"',
-'X41': '"VisionNighttimeRange"',
-'X42': '"AttributeBaseStrength"',
-'X43': '"AttributeBaseIntelligence"',
-'X44': '"AttributeBaseAgility"',
-'X45': '"AttributeStrengthGain"',
-'X46': '"AttributeIntelligenceGain"',
-'X47': '"AttributeAgilityGain"',
-'X49': '"AttributePrimary"',
-}
-
-kvdict_data = {'X15': '"MovementTurnRate"'}
-
-kvdict_weapons = {
-'X6': '"AttackAcquisitionRange"',
-'X19': '"AttackRange"',
-'X22': '"CombatClassAttack"',
-'X23': '"AttackCapabilities"',
-'X24': '"AttackRate"',
-'X30': '"AttackDamageMin"',
-'X32': '"AttackDamageMax"',
-'X33': '"AttackAnimationPoint"',
-'X0': '"AbilityUnitDamageType"'
-}
+KVData = json.loads(open('KVData.json').read())
 
 fileout = open("npc_units_custom.txt", 'w')
  
@@ -148,22 +118,22 @@ for i in range (1, unitMax - 2):
                 if 'AGI' in v:
                     v = ' DOTA_ATTRIBUTE_AGILITY'               
             #if the key is one we are looking for, as defined in kvdict_bal
-            if k in kvdict_bal:
+            if k in KVData["UnitBalance"]:
                 v = v.lstrip ('K')
                 #print("num is " + str(num) + " k is " + k + " v is " + v + " bCols[i] is " + str(bCols[i]) + "num + bcols / line is " + str(bCols[i] + num)) 
                 #forgot what this regex does exactly lmao think it tabs it twice, writes the key,
                 #puts a " then wirte the value then another " then removes the new line, since
                 #i think write makes one anyway 
-                text = ('\t\t' + kvdict_bal[k] + '\t' + '\"' + v.strip("\r\n") + '\"' + '\n')
+                text = ('\t\t' + KVData["UnitBalance"][k] + '\t' + '\"' + v.strip("\r\n") + '\"' + '\n')
                 fileout.write(text)
 
     for num in range(dCols[i], dCols[i + 1]):
 
             k, temp, v = linecache.getline("UnitData.slk", num)[2:].partition(';')
 
-            if k in kvdict_data:
+            if k in KVData["UnitData"]:
                 v = v.lstrip('K')
-                text = ('\t\t' + kvdict_data[k] + '\t' + '\"' + v.strip("\r\n") + '\"' + '\n')
+                text = ('\t\t' + KVData["UnitData"][k] + '\t' + '\"' + v.strip("\r\n") + '\"' + '\n')
                 fileout.write(text)
 
 
@@ -195,8 +165,8 @@ for i in range (1, unitMax - 2):
                 elif 'missile' or 'artillery' in  v:
                     v = 'DOTA_UNIT_CAP_RANGED_ATTACK'
 
-            if k in kvdict_weapons:
+            if k in KVData["UnitWeapons"]:
                 v = v.lstrip('K')
-                text = ('\t\t' + kvdict_weapons[k] + '\t' + '\"' + v.strip("\r\n") + '\"' + '\n')
+                text = ('\t\t' + KVData["UnitWeapons"][k] + '\t' + '\"' + v.strip("\r\n") + '\"' + '\n')
                 fileout.write(text)
     fileout.write('}' + '\n')

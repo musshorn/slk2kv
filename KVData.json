@@ -1,0 +1,33 @@
+{
+  "UnitBalance" : {
+    "X23": "\"StatusHealth\"",
+    "X25": "\"StatusHealthRegen\"",
+    "X27": "\"StatusMana\"",
+    "X30": "\"StatusManaRegen\"",
+    "X31": "\"ArmorPhysical\"",
+    "X35": "\"MovementSpeed\"",
+    "X40": "\"VisionDaytimeRange\"",
+    "X41": "\"VisionNighttimeRange\"",
+    "X42": "\"AttributeBaseStrength\"",
+    "X43": "\"AttributeBaseIntelligence\"",
+    "X44": "\"AttributeBaseAgility\"",
+    "X45": "\"AttributeStrengthGain\"",
+    "X46": "\"AttributeIntelligenceGain\"",
+    "X47": "\"AttributeAgilityGain\"",
+    "X49": "\"AttributePrimary\""
+  },
+  "UnitData" : {
+    "X15": "\"MovementTurnRate\""
+  },
+  "UnitWeapons" : {
+    "X6": "\"AttackAcquisitionRange\"",
+    "X19": "\"AttackRange\"",
+    "X22": "\"CombatClassAttack\"",
+    "X23": "\"AttackCapabilities\"",
+    "X24": "\"AttackRate\"",
+    "X30": "\"AttackDamageMin\"",
+    "X32": "\"AttackDamageMax\"",
+    "X33": "\"AttackAnimationPoint\"",
+    "X0": "\"AbilityUnitDamageType\""
+  }
+}
