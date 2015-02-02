@@ -1,0 +1,75 @@
+[Eevi]
+Name=Demon Hunter
+Hotkey=D
+Propernames=Illidan
+Revivetip=Revive |cffffcc00D|remon Hunter
+Awakentip=Revive |cffffcc00D|remon Hunter
+Ubertip="Cunning Hero, adept at maneuvering through battles. Can learn Immolation, Evasion, Mana Burn, and Metamorphosis. |n|n|cffffcc00Attacks land units.|r"
+[Eevm]
+Name=Demon Hunter
+Hotkey=D
+Propernames=Illidan
+Revivetip=Revive |cffffcc00D|remon Hunter
+Awakentip=Revive |cffffcc00D|remon Hunter
+Ubertip="Cunning Hero, adept at maneuvering through battles. Can learn Immolation, Evasion, Mana Burn, and Metamorphosis. |n|n|cffffcc00Attacks land units.|r"
+[n006]
+Name="Ultimate Tower of Flames"
+Hotkey=U
+Tip="|cffffcc00U|rpgrade to Ultimate Tower of Flames"
+Ubertip="|cff00FF00Damage:|r 2500|n|cff00FF00Cooldown:|r 0.50|n|cff00FF00Range:|r 1600|n|cff00FF00Hitpoints:|r 5000"
+[n008]
+Name="Super Wall Tower"
+Hotkey=D
+Tip="Construct Super Wall Tower [|cffffcc00D|r]"
+Ubertip="|cff00ff00Damage:|r 585 - 635 |n|cff00ff00Cooldown:|r 1.00|n|cff00ff00Range:|r 500|n|cff00ff00Hitpoints:|r 10000|n|cff00ff00Ability:|r Regenerates 500 hitpoints every second"
+[n00C]
+Name="Tracker"
+[E001]
+Name="Ancient Vampire"
+Hotkey=
+Propernames=Nosferatu,Adramelechk,Azrael,Diablo,Dr. Alucard,Dracula,Drake,Duckula,Gawain,King of Darkness,Lestate,Maharaja,Mephisto
+Revivetip=Revive |cffffcc00D|remon Hunter
+Awakentip="Summon Ancient Vampire"
+Ubertip="The Ancient Vampire with Slow Poison, Health Beam, Critical Strike, Veil of Darkness, Shadow Sight and Chain of Death."
+Tip="Ancient Vampire (Illidan Model)"
+[E002]
+Name="Ancient Vampire"
+Hotkey=
+Propernames=Nosferatu,Adramelechk,Azrael,Diablo,Dr. Alucard,Dracula,Drake,Duckula,Gawain,King of Darkness,Lestate,Maharaja,Mephisto
+Revivetip=Revive |cffffcc00D|remon Hunter
+Awakentip="Summon Ancient Vampire"
+Ubertip="The Ancient Vampire with Slow Poison, Health Beam, Critical Strike, Veil of Darkness, Shadow Sight and Chain of Death."
+Tip="Ancient Vampire (Kil'jaiden Model)"
+[hTMb]
+Name="Mana Energy Tower"
+Hotkey=E
+Tip="Build Mana |cffffcc00E|rnergy Tower"
+Ubertip="|cff00ff00Damage:|r 150 |cff8080ff(+120 from mana burn)|r|n|cff00ff00Cooldown:|r 0.20|n|cff00ff00Range:|r 1000|n|cff00ff00Hitpoints:|r 2500|n|cff00ff00Ability:|r Passive Mana Burn |cff8080ff(100)|r"
+[hTFs]
+Name="Super Tower of Flame"
+Hotkey=U
+Tip="|cffffcc00U|rpgrade to Super Flame Tower"
+Ubertip="|cff00FF00Damage:|r 800|n|cff00FF00Cooldown:|r 0.50|n|cff00FF00Range:|r 1300|n|cff00FF00Hitpoints:|r 3000"
+[hTFb]
+Name="Tower of Flame"
+Hotkey=F
+Tip=Build |cffffcc00F|rlame Tower
+Ubertip="|cff00ff00Damage:|r 300|n|cff00ff00Cooldown:|r 0.50|n|cff00ff00Range:|r 1000|n|cff00ff00Hitpoints:|r 500"
+[hTWb]
+Name="Wall Tower"
+Hotkey=D
+Tip="Build Wall Tower [|cffffcc00D|r]"
+Ubertip="|cff00ff00Damage:|r 150|n|cff00ff00Cooldown:|r 1.00|n|cff00ff00Range:|r 500|n|cff00ff00Hitpoints:|r 5000|n|cff00ff00Ability:|r Regenerates 500 hitpoints every second"
+[AVFV]
+Name="Ancient Vampiress"
+Hotkey=
+Propernames=Ana'Mary,Darla,Queen of the Dammed,Diabla,Mephista,Duckulia,Ariel,Marget Thatcher,Gaia,Team Rockets's Jessie,Adramelechka
+Revivetip=Revive |cffffcc00D|remon Hunter
+Awakentip="Summon Ancient Vampiress"
+Ubertip="The Ancient Vampire with Slow Poison, Health Beam, Critical Strike, Veil of Darkness, Shadow Sight and Chain of Death."
+Tip="Ancient Vampire (Banshee Model)"
+[n00M]
+Name="Lesser Mana Energy Tower"
+Hotkey=E
+Tip="Build Lesser Mana |cffffcc00E|rnergy Tower"
+Ubertip="|cff00ff00Damage:|r 3 - 6|n|cff00ff00Cooldown:|r 0.40|n|cff00ff00Range:|r 800|n|cff00ff00Hitpoints:|r 1000|n|cff00ff00Ability:|r Reveal, Passive Mana Burn |cff8080ff(50)|r"

@@ -1,0 +1,559 @@
+[Hblm]
+Name=Blood Mage
+Propernames=Eldin Sunstrider,Tanin Hawkwing,Lorn Bloodseeker,Aldos Firestar,Gilaras Drakeson,Hale Magefire,Kath'ranis Remar,Tyoril Sunchaser,Sylvos Windrunner,Tenris Mirkblood,Marakanis Starfury,Geldor Earthfire,Halendor Burnkin,Kelen the Destroyer'
+Hotkey=B
+Tip=Summon |cffffcc00B|rlood Mage
+Ubertip="Mystical Hero, adept at controlling magic and ranged assaults. Can learn Flame Strike, Banish, Siphon Mana and Phoenix. |n|n|cffffcc00Attacks land and air units.|r"
+Revivetip=Revive |cffffcc00B|rlood Mage
+Awakentip=Revive |cffffcc00B|rlood Mage
+[halt]
+Name=Altar of Kings
+Hotkey=A
+Tip=Build |cffffcc00A|rltar of Kings
+Ubertip="Summons Heroes. Revives slain Heroes."
+[Hamg]
+Name=Archmage
+Propernames=Tenn Flamecaster,Nilas Arcanister,Andromath,Shal Lightbinder,Aran Spellweaver,Manath Magesinger,Landazar,Doril Magefont,Peril Spellbinder,Conjurus Rex,Fordred Aran,Dalar Dawnweaver,Kelen the Seeker
+Hotkey=A
+Tip=Summon |cffffcc00A|rrchmage
+Ubertip="Mystical Hero, adept at ranged assaults. Can learn Blizzard, Summon Water Elemental, Brilliance Aura and Mass Teleport. |n|n|cffffcc00Attacks land and air units.|r"
+Revivetip=Revive |cffffcc00A|rrchmage
+Awakentip=Revive |cffffcc00A|rrchmage
+[harm]
+Name=Workshop
+Hotkey=W
+Tip=Build |cffffcc00W|rorkshop
+Ubertip="Produces Siege Engines, Flying Machines, and Mortar Teams. |nAlso contains the Flare, Fragmentation Shards, Barrage, Flying Machine Bombs, and Flak Cannons upgrades."
+[hars]
+Name=Arcane Sanctum
+Hotkey=R
+Tip=Build A|cffffcc00r|rcane Sanctum
+Ubertip="Trains Priests, Sorceresses, and Spell Breakers. |nAlso contains spell upgrades for Priests and Sorceresses, Control Magic, and Magic Sentry."
+[hbar]
+Name=Barracks
+Hotkey=B
+Tip=Build |cffffcc00B|rarracks
+Ubertip="Primary troop production building. Trains Footmen, Riflemen and Knights. |nAlso contains the Defend, Long Rifles, and Animal War Training upgrades."
+[hbla]
+Name=Blacksmith
+Hotkey=S
+Tip=Build Black|cffffcc00s|rmith
+Ubertip="Contains upgrades for improved armor, weaponry and gunpowder."
+[hcas]
+Name=Castle
+Hotkey=U
+Tip=|cffffcc00U|rpgrade to Castle
+Ubertip="Upgrade to Castle to enable the production of additional types of structures and units."
+[hdhw]
+Name=Dragonhawk Rider
+Hotkey=D
+Tip=Train |cffffcc00D|rragonhawk Rider
+Ubertip="Swift flying unit, mounted by an Elven warrior. Has the Aerial Shackles ability, which allows it to immobilize and disarm enemy air units temporarily. Can learn Animal War Training, and the Cloud ability. |n|n|cffffcc00Attacks land and air units.|r"
+[hhou]
+Name=Farm
+Hotkey=F
+Tip=Build |cffffcc00F|rarm
+Ubertip="Provides food, which increases the maximum number of units that can be trained."
+[hfoo]
+Name=Footman
+Hotkey=F
+Tip=Train |cffffcc00F|rootman
+Ubertip="Versatile foot soldier. Can learn the Defend ability. |n|n|cffffcc00Attacks land units.|r"
+[hgra]
+Name=Gryphon Aviary
+Hotkey=G
+Tip=Build |cffffcc00G|rryphon Aviary
+Ubertip="Trains Gryphon Riders, and Dragonhawk Riders. |nAlso contains the Storm Hammers and Cloud upgrades."
+[hctw]
+Name=Cannon Tower
+Hotkey=C
+Tip=Upgrade to |cffffcc00C|rannon Tower
+Ubertip="Heavy defensive structure. Particularly effective against clusters of troops. Can learn the Magic Sentry ability. |n|n|cffffcc00Attacks land units and trees.|r"
+[hgtw]
+Name=Guard Tower
+Hotkey=G
+Tip=Upgrade to |cffffcc00G|ruard Tower
+Ubertip="Primary defensive structure. Can learn the Magic Sentry ability. |n|n|cffffcc00Attacks land and air units.|r"
+[hwtw]
+Name=Scout Tower
+Hotkey=T
+Tip=Build Scout |cffffcc00T|rower
+Ubertip="Basic observation tower. Has no attack, but can be upgraded into a Guard Tower, an Arcane Tower, or a Cannon Tower. Can learn the Magic Sentry ability."
+[hatw]
+Name=Arcane Tower
+Hotkey=N
+Tip=Upgrade to Arca|cffffcc00n|re Tower
+Ubertip="Magical defensive tower. Particularly effective against enemy Heroes and spellcasters. Has the Feedback ability, which causes its attacks to destroy mana, dealing extra damage equal to the mana destroyed. Can learn the Magic Sentry ability. |n|n|cffffcc00Attacks land and air units."
+[hvlt]
+Name=Arcane Vault
+Hotkey=V
+Tip=Build Arcane |cffffcc00V|rault
+Ubertip="Creates a shop with purchasable items. The items available depend upon what level of upgrade your Town Hall has (Town Hall, Keep, or Castle) and which buildings you have."
+[hgyr]
+Name=Flying Machine
+Hotkey=F
+Tip=Train |cffffcc00F|rlying Machine
+Ubertip="Fast moving flying machine. Excellent at scouting, and effective against air units. Can learn the Flying Machine Bombs and Flak Cannons upgrades. |nCan see invisible units. |n|n|cffffcc00Attacks air units.|r"
+[hkee]
+Name=Keep
+Hotkey=U
+Tip=|cffffcc00U|rpgrade to Keep
+Ubertip="Upgrade to Keep to enable the production of additional types of structures and units."
+[hkni]
+Name=Knight
+Hotkey=K
+Tip=Train |cffffcc00K|rnight
+Ubertip="Powerful mounted warrior. Can learn Animal War Training. |n|n|cffffcc00Attacks land units.|r"
+[hlum]
+Name=Lumber Mill
+Hotkey=L
+Tip=Build |cffffcc00L|rumber Mill
+Ubertip="Serves as a drop-off point for harvested lumber. |nAlso contains the upgrades for Lumber Harvesting and Masonry."
+[hmil]
+Name=Militia
+[Hmkg]
+Name=Mountain King
+Propernames=Bor Stonebreaker,Munin Ironcliff,Thorgas Broadaxe,Kelv Sternhammer,Grim Thunderbrew,Buri Frostbeard,Huginn Ironcliff,Thordin Rockbeard,Bandis Forgefire,Gar Doomforge,Beazel Bludstone,Modi Stonesmith,Aggronor the Mighty
+Hotkey=M
+Tip=Summon |cffffcc00M|rountain King
+UberTip="Warrior Hero, adept at offensive combat and disrupting enemy troops. Can learn Storm Bolt, Thunder Clap, Bash and Avatar. |n|n|cffffcc00Attacks land units.|r"
+Revivetip=Revive |cffffcc00M|rountain King
+Awakentip=Revive |cffffcc00M|rountain King
+[hmpr]
+Name=Priest
+Hotkey=P
+Tip=Train |cffffcc00P|rriest
+Ubertip="Supporting spellcaster. Can initially cast Heal, which increases the life of wounded units. Can also learn Dispel Magic and Inner Fire. |n|n|cffffcc00Attacks land and air units.|r"
+Casterupgradename=Initiate, Adept, Master
+Casterupgradetip="- Heal","- Heal|n- Dispel Magic","- Heal|n- Dispel Magic|n- Inner Fire"
+[hmtm]
+Name=Mortar Team
+Hotkey=M
+Tip=Train |cffffcc00M|rortar Team
+Ubertip="Long-range siege weaponry. Exceptional damage versus buildings, but slow and vulnerable. Can learn the Fragmentation Shards and Flare abilities. |n|n|cffffcc00Attacks land units and trees.|r"
+[Hpal]
+Name=Paladin
+Propernames=Granis Darkhammer,Jorn the Redeemer,Sage Truthbearer,Malak the Avenger,Gavinrad the Dire,Morlune the Mighty,Agamand the True,Ballador the Bright,Manadar the Healer,Zann the Defender,Arius the Seeker,Aurrius the Pure,Karnwield the Seeker,Buzan the Fearless
+Hotkey=L
+Tip=Summon Pa|cffffcc00l|radin
+Ubertip="Warrior Hero, exceptional at defense and augmenting nearby friendly troops. Can learn Holy Light, Divine Shield, Devotion Aura and Resurrection. |n|n|cffffcc00Attacks land units.|r"
+Revivetip=Revive Pa|cffffcc00l|radin
+Awakentip=Revive Pa|cffffcc00l|radin
+[hpea]
+Name=Peasant
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[hrif]
+Name=Rifleman
+Hotkey=R
+Tip=Train |cffffcc00R|rifleman
+Ubertip="Highly skilled sharpshooter, effective against air units. Can gain the Long Rifles upgrade. |n|n|cffffcc00Attacks land and air units.|r"
+[hsor]
+Name=Sorceress
+Hotkey=S
+Tip=Train |cffffcc00S|rorceress
+Ubertip="Versatile spellcaster. Can initially cast Slow, which decreases movement and attack speed on enemy units. Can also learn Invisibility and Polymorph. |n|n|cffffcc00Attacks land and air units.|r"
+Casterupgradename=Initiate, Adept, Master
+Casterupgradetip="- Slow","- Slow|n- Invisibility","- Slow|n- Invisibility|n- Polymorph"
+[hspt]
+Name=Spell Breaker
+Hotkey=B
+Tip=Train Spell |cffffcc00B|rreaker
+Ubertip="Elven warrior trained to destroy spellcasters. Initially has Spell Steal, which manipulates buffs to your advantage, Spell Immunity and Feedback. Can also learn Control Magic. |n|n|cffffcc00Attacks land units.|r"
+[hmtt]
+Name=Siege Engine
+Hotkey=E
+Tip=Train Siege |cffffcc00E|rngine
+Ubertip="Heavily armored vehicle, effective at destroying buildings. Can be upgraded with the Barrage ability. |n|n|cffffcc00Attacks buildings.|r"
+[hrtt]
+Name=Siege Engine
+Hotkey=E
+Tip=Train Siege |cffffcc00E|rngine
+Ubertip="Heavily armored vehicle, effective at destroying buildings. Has the Barrage ability, which fires rockets at nearby enemy air units. |n|n|cffffcc00Attacks buildings.|r"
+[htow]
+Name=Town Hall
+Hotkey=H
+Tip=Build Town |cffffcc00H|rall
+Ubertip="Primary structure, used to train Peasants and receive gathered resources. Can be upgraded to Keep and then Castle to enable the production of additional types of structures and units."
+[hwat]
+Name=Water Elemental
+[hwt2]
+Name=Water Elemental
+[hwt3]
+Name=Water Elemental
+[hgry]
+Name=Gryphon Rider
+Hotkey=G
+Tip=Train |cffffcc00G|rryphon Rider
+Ubertip="Powerful flying creature, mounted by a Dwarven hammer-thrower. Can learn Animal War Training, and the Storm Hammers ability. |n|n|cffffcc00Attacks land and air units.|r"
+[hphx]
+Name=Phoenix
+[hpxe]
+Name=Phoenix Egg
+[h001]
+Name="Carnelian Wall"
+Hotkey=W
+Tip="Carnelian |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 400 |n|cff00ff00Armor:|r 10 |n|cff00ff00Regen Rate:|r 1/sec|n|cff00ff00BuildTime:|r 1"
+[h000]
+Name="Topaz Wall"
+Hotkey=W
+Tip="Upgrade to Topaz |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 700|n|cff00ff00Armor:|r 20|n|cff00ff00Regen Rate:|r 10/sec|n|cff00ff00BuildTime:|r 5"
+[h002]
+Name="Human's Vault"
+Hotkey=V
+Tip="Build Human's |cffffcc00V|rault."
+Ubertip="Enables the construction of many more advanced structures, and stronger walls.|n|nGold is gained by stealing gold coins that are dropped when Vampires kill buildings or units."
+[h003]
+Name="Amethyst Wall"
+Hotkey=W
+Tip="Upgrade to Amethyst |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 1400|n|cff00ff00Armor:|r 30|n|cff00ff00Regen Rate:|r 25/sec|n|cff00ff00BuildTime:|r 10"
+[h005]
+Name="Sapphire Wall"
+Hotkey=W
+Tip="Upgrade to Sapphire |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 5000|n|cff00ff00Armor:|r 55|n|cff00ff00Regen Rate:|r 20/sec|n|cff00ff00BuildTime:|r 20"
+[h006]
+Name="Emerald Wall"
+Hotkey=W
+Tip="Upgrade to Emerald |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 10000|n|cff00ff00Armor:|r 80|n|cff00ff00Regen Rate:|r 25/sec|n|cff00ff00Build Time:|r 30"
+[h007]
+Name="Furbolg Harvester"
+Hotkey=S
+Tip="Train Furbolg Harve|cffffcc00s|rter"
+Ubertip="An advanced harvester that gathers more wood than the regular workers.|n|n20 per hit, 100 max load"
+[h008]
+Name="Lumber House"
+Hotkey=H
+Tip="Upgrade to Lumber |cffffcc00H|rouse"
+Ubertip="Stronger structure that builds Advanced workers. the advanced workers also have the ability to build gold mines which produce one gold every minute."
+[h009]
+Name="Super Wall of Health"
+Hotkey=F
+Tip="Construct Super Wall of Health [|cffffcc00F|r]"
+Ubertip="|cff00ff00Hitpoints:|r 1750|n|cff00ff00Armor:|r 100|n|cff00ff00Regen Rate:|r 20/sec|n|cff00ff00Build Time:|r 5|n|cff00ff00Ability:|r Powerful Regeneration Aura, Stronger Healing Wave,"
+[h00A]
+Name="Fang Harvester"
+Hotkey=U
+Tip="Train Fang Harvester [|cffffcc00U|r]"
+Ubertip="A very advanced worker that gives huge amounts of wood at a time.(This unit cannot build or repair but has enough health to withstand many chain lightnings) |n|n100 per hit, 1000 max load"
+[h00B]
+Name="Deforestation House"
+Hotkey=H
+Tip="Upgrade to Deforestation |cffffcc00H|rouse"
+Ubertip="Allows you to build an even more advanced worker.|n|n|cffFF0000WARNING: the worker built by this stucture requires 20 gold to build!|r"
+[h00C]
+Name="Super Tower Builder"
+Hotkey=S
+Tip="Train |cffffcc00S|ruper Tower Builder"
+Ubertip="Creates the most efficient towers in the world."
+[h00D]
+Name="Comet Tower"
+Hotkey=C
+Tip="Build |cffffcc00C|romet Tower"
+Ubertip="|cff00FF00Damage:|r 15000|n|cff00FF00Cooldown:|r 1.00|n|cff00FF00Range:|r 1500|n|cff00FF00Hitpoints:|r 5000|n|cff00FF00Ability:|r Spell immunity, Cripple"
+[h00E]
+Name="Ruby Wall"
+Hotkey=W
+Tip="Build Ruby |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 50000|n|cff00ff00Armor:|r 110|n|cff00ff00Regen Rate:|r 50/sec|n|cff00ff00BuildTime:|r 60"
+[h00F]
+Name="Diamond Wall"
+Hotkey=W
+Tip="Upgrade to Diamond |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 150000|n|cff00ff00Armor:|r 150|n|cff00ff00Regen Rate:|r 100/sec|n|cff00ff00Build Time:|r 70"
+[h00G]
+Name="Citadel of Faith"
+Hotkey=F
+Tip="Upgrade to Citadel of |cffffcc00F|raith"
+Ubertip="The ultamate shop that allows newer items to be purchased and gives the ability to create better towers."
+[h00H]
+Name="Lightning Oracle"
+Hotkey=L
+Tip="Build |cffffcc00L|rightning Oracle"
+Ubertip="|cff00ff00Damage: |r48000|n|cff00ff00Cooldown:|r 0.2|n|cff00ff00Range:|r 2000|n|cff00ff00Hitpoints:|r 15000"
+[h00I]
+Name="Vampire Spire Tower"
+Hotkey=V
+Tip="Build |cffffcc00V|rampire Spire Tower"
+Ubertip="|n|cff00FF00Damage:|r 750|n|cff00FF00Cooldown:|r 0.10|n|cff00FF00Range:|r 1000|n|cff00FF00Hitpoints:|r 2500|n|cff00FF00Ability:|r Venomous Leak(Slow)"
+[h00J]
+Name="Blood Box"
+Hotkey=B
+Tip="Build |cffffcc00B|rlood Box"
+Ubertip="An extreme block that has 10000 hit points,  decently high lumber cost. Gives Vampires 5000 exp and 200 gold. Used for giving the vampires a little snack or Blocking Blood spots"
+[h00K]
+Name="Fire Spawn Deforester"
+Hotkey=F
+Tip="Train |cffffcc00F|rire Spawn Deforester"
+Ubertip="A useful wood harvester; worth the gold when you need wood. Can self detonate to free up food resources when necessary.|n|n400 per hit, 4000 max load"
+[h00L]
+Name="Armageddon Tower"
+Hotkey=C
+Tip="Upgrade to Armageddon Tower [C]"
+Ubertip="|cff00FF00Damage:|r 100000|n|cff00FF00Cooldown:|r 1.00|n|cff00FF00Range:|r 2000|n|cff00FF00Hitpoints:|r 5000|n|cff00FF00Ability:|r Spell immunity, Cripple"
+[h00M]
+Name="Ultra Lightning Oracle"
+Hotkey=L
+Tip="Build Ultra |cffffcc00L|rightning Oracle"
+Ubertip="|cff00ff00Damage:|r 249750|n|cff00ff00Cooldown:|r 0.2|n|cff00ff00Range:|r 2500|n|cff00ff00Hitpoints:|r 15000"
+[h00N]
+Name="Base of Operations"
+Hotkey=O
+Tip="Build a Base of |cffffcc00O|rperations"
+Ubertip="The highest form of tier in the game. With this structure you may purchase a more advanced harvester which snags 20000 wood a load. You may also purchase a unit that can regrow trees, helpful for using those pesky stumps all over."
+[h00O]
+Name="Ultra Gold Mine"
+Hotkey=G
+Tip="Upgrade to Ultra |cffffcc00G|rold Mine"
+Ubertip="Generates gold every 6 seconds, with the amount depending on how many vampires there are in the game."
+[h00P]
+Name="Onyx Wall"
+Hotkey=W
+Tip="Upgrade to Onyx |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 200000|n|cff00ff00Armor:|r 200|n|cff00ff00Regen Rate:|r 200/sec|n|cff00ff00Build Time:|r 100"
+[h00Q]
+Name="Goblin Tower Builder"
+Hotkey=G
+Tip="Train |cffffcc00G|roblin Tower Builder"
+Ubertip="Can grow back trees, destroy trees, blink to anywhere on the map, creates all the best towers, gold mines, walls and a house if needed.|n|n|cffFF0000Warning, Goblins give 250 gold when killed!|r"
+[h00S]
+Name="Meteor Tower"
+Hotkey=C
+Tip="Build Meteor Tower [C]"
+Ubertip="|cff00FF00Damage:|r 35000|n|cff00FF00Cooldown:|r 1.00|n|cff00FF00Range:|r 2000|n|cff00FF00Hitpoints:|r 5000|n|cff00FF00Ability:|r Cripple, Spell Immunity"
+[h00T]
+Name="Satyr Harvester"
+Hotkey=W
+Tip="Train Satyr Harvester [|cffffcc00W|r]"
+Ubertip="A very useful wood harvester; worth the gold when you need wood. |n|n2000 per hit, 20000 max load"
+[h00U]
+Name="Ultra Vampire Spire Tower"
+Hotkey=V
+Tip="Upgrade to Ultra |cffffcc00V|rampire Spire Tower"
+Ubertip="|cff00FF00Damage:|r 2500|n|cff00FF00Cooldown:|r 0.10|n|cff00FF00Range:|r 1500|n|cff00FF00Hitpoints:|r 2500|n|cff00FF00Ability:|r Venomous Leak(Slow)"
+[h004]
+Name="Super Gold Mine"
+Hotkey=G
+Tip="Upgrade to Super |cffffcc00G|rold Mine"
+Ubertip="Generates gold every 15 seconds, with the amount depending on how many vampires there are in the game.|n"
+[h00V]
+Name="Human"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[h00W]
+Name="Skillet-Collide"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[h00Z]
+Name="Chrysoprase Wall"
+Hotkey=W
+Tip="Upgrade to Chrysoprase |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 15000|n|cff00ff00Armor:|r 90|n|cff00ff00Regen Rate:|r 30/sec|n|cff00ff00BuildTime:|r 40"
+[h019]
+Name="Elite Gold Mine"
+Hotkey=G
+Tip="Build Elite |cffffcc00G|rold Mine"
+Ubertip="Generates gold every 4 seconds, with the amount depending on how many vampires there are in the game."
+[h00R]
+Name="Sorry, only one Slayer per Human."
+Hotkey=D
+Tip=Train |cffffcc00D|rragonhawk Rider
+Ubertip="Swift flying unit, mounted by an Elven warrior. Has the Aerial Shackles ability, which allows it to immobilize and disarm enemy air units temporarily. Can learn Animal War Training, and the Cloud ability. |n|n|cffffcc00Attacks land and air units.|r"
+[h01F]
+Name="Cheekything"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[H01L]
+Name="Slayeress"
+Propernames=Rachel van Helsing,Buffy,Faith,Xenia,Misty,Maid Marion,Willow,Wonder Woman,Mrs. Muffin Man,Det. Angela Dodson,Margret Thatcher
+Hotkey=L
+Tip="Summon S|cffffcc00l|rayeress"
+Ubertip="A highly skilled Vampire Slayeress. The Slayeress is able to collect the hearts of fallen Vampires to increase her level. The Slayeress requires a lot of lumber and time to revive... Do not let her die."
+Revivetip="Revive S|cffffcc00l|rayeress - A long and expensive process."
+Awakentip="Revive S|cffffcc00l|rayeress"
+[h01M]
+Name="Caesio"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[h01R]
+Name="Garnet Wall"
+Hotkey=W
+Tip="Upgrade to Garnet |cffffcc00W|rall"
+Ubertip="|cff00ff00Hitpoints:|r 30000|n|cff00ff00Armor:|r 100|n|cff00ff00Regen Rate:|r 40/sec|n|cff00ff00BuildTime:|r 50"
+[h01S]
+Name="The Box"
+Hotkey=B
+Tip=""
+Ubertip=""
+[h010]
+Name="Human"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[h015]
+Name="Mysterious French Man"
+Hotkey=F
+Tip="Where did the Mysterious French Man go?"
+Ubertip="A man imported from France willing to run into a base for Teleportation purposes (can run through human size spaces)."
+[hEng]
+Name="Engineer"
+Hotkey=K
+Tip=Train |cffffcc00K|rnight
+Ubertip="Powerful mounted warrior. Can learn Animal War Training. |n|n|cffffcc00Attacks land units.|r"
+[oVis]
+Name="Radius of Vision"
+Hotkey=D
+Tip=Train |cffffcc00D|rragonhawk Rider
+Ubertip="Swift flying unit, mounted by an Elven warrior. Has the Aerial Shackles ability, which allows it to immobilize and disarm enemy air units temporarily. Can learn Animal War Training, and the Cloud ability. |n|n|cffffcc00Attacks land and air units.|r"
+[hCmd]
+Name="Command Center"
+Hotkey=Z
+Tip="Build Command Center (|cffffcc00Z|r)"
+Ubertip="The 4th best Tier for humans. You may purchase a more advanced harvesters that can snag 4000 a load."
+[hHse]
+Name="House"
+Hotkey=H
+Tip="Build |cffffcc00H|rouse"
+Ubertip="Primarily used for training workers to harvest wood. Can be upgraded for purchase of better workers."
+[hWhp]
+Name="Wall of Health"
+Hotkey=F
+Tip="Wall of Health [|cffffcc00F|r]"
+Ubertip="|cff00ff00Hitpoints:|r 500|n|cff00ff00Armor:|r 75|n|cff00ff00Regen Rate:|r 10/sec|n|cff00ff00BuildTime:|r 5|n|cff00ff00Ability:|r Healing Wave, Regeneration Aura"
+[hBgm]
+Name="Gold Mine"
+Hotkey=G
+Tip="Build |cffffcc00G|rold Mine"
+Ubertip="Generates gold every 60 seconds, with the amount depending on how many vampires there are in the game."
+[HSyM]
+Name="Slayer"
+Propernames=Van Helsing,Blade,Kirby,Alucard,Robin Hood,Dr. Von Goosewing,Valentine,Muffin Man,Banana Man,Spawn,Robert Neville
+Hotkey=A
+Tip="Summon Sl|cffffcc00a|ryer"
+Ubertip="A highly skilled Vampire Slayer. The Slayer is able to collect the hearts of fallen Vampires to increase his level. The Slayer requires a lot of lumber and time to revive... Do not let him die."
+Revivetip="Revive Sl|cffffcc00a|ryer - A long and expensive process."
+Awakentip="Revive Sl|cffffcc00a|ryer"
+[hBld]
+Name="Blood"
+Hotkey=T
+Tip=Build Scout |cffffcc00T|rower
+Ubertip="Basic observation tower. Has no attack, but can be upgraded into a Guard Tower, an Arcane Tower, or a Cannon Tower. Can learn the Magic Sentry ability."
+[h013]
+Name="d07.RiV"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[hFlg]
+Name="Flag"
+Hotkey=L
+Tip="[|cFFFFCC00L|r] Build Flag"
+Ubertip="Build a flag in a base to claim it.|n|nTyping |cff7fbff1-allow|r |cffffcc00[color]|r will permit the 'allowed' player to build in your claimed base.|n|n|cffffcc00[color]|r can be: |cffff0303red|r, |cff0042ffblue|r, |cff1ce6b9teal|r, |cff540081purple|r, |cfffffc00yellow|r, |cfffe8a0eorange|r, |cff20c000green|r, |cffe55bb0pink|r, |cff959697gray|r, or |cff7fbff1lightblue|r"
+[hss1]
+Name="Human Surplus"
+Hotkey=P
+Tip="Build Human Sur|cffffcc00p|rlus"
+Ubertip="Creates a shop with purchasable items."
+[hHBT]
+Name="Holy Blood Tower"
+Hotkey=O
+Tip="Build H|cffffcc00o|rly Blood Tower"
+Ubertip="|cff00FF00Damage:|r 10000|n|cff00FF00Cooldown:|r 0.10|n|cff00FF00Range:|r 1500|n|cff00FF00Hitpoints:|r 5000|n|cff00FF00Ability:|r Spell immunity, Reduces vampire armor by 1 on every hit (unlimited)"
+[hdum]
+Name="Dummy Unit"
+Hotkey=F
+Tip=""
+Ubertip=""
+[h01U]
+Name="Blood Tower"
+Hotkey=O
+Tip="Build Bl|cffffcc00o|rod Tower"
+Ubertip="|cff00FF00Damage:|r 1000|n|cff00FF00Cooldown:|r 1.00|n|cff00FF00Range:|r 1200|n|cff00FF00Hitpoints:|r 2500|n|cff00FF00Ability:|r Reduces vampire armor by 1 on every hit (unlimited)"
+[h01V]
+Name="Target Dummy"
+Hotkey=F
+Tip=Train |cffffcc00F|rootman
+Ubertip="Versatile foot soldier. Can learn the Defend ability. |n|n|cffffcc00Attacks land units.|r"
+[h01X]
+Name="Slayer Marker"
+Hotkey=F
+Tip=Train |cffffcc00F|rootman
+Ubertip="Versatile foot soldier. Can learn the Defend ability. |n|n|cffffcc00Attacks land units.|r"
+[h01Y]
+Name="DaveAzoicer"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[h01Z]
+Name="Littletiger"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[h020]
+Name="Tower Builder"
+Hotkey=T
+Tip="Train Simple |cffffcc00T|rower Builder"
+Ubertip="Allows you to build low end towers"
+[h022]
+Name="Loathed"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[h023]
+Name="wbc]StorMRaider"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[huw1]
+Name="Worker"
+Hotkey=W
+Tip="Train |cffffcc00W|rorker"
+Ubertip="Expendable wood harvesting unit. Detonate these expendables when a vampire is coming to kill it."
+[h02G]
+Name="Dead Human"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[hdlh]
+Name="Lumber Harvesting"
+Hotkey=F
+Tip=""
+Ubertip=""
+[h02H]
+Name="Volcano (Main, Dummy)"
+Hotkey=F
+Tip=""
+Ubertip=""
+[h02I]
+Name="Volcano"
+Hotkey=F
+Tip=""
+Ubertip=""
+[h02J]
+Name="Sight Dummy (1200)"
+Hotkey=F
+Tip=""
+Ubertip=""
+[hM03]
+Name="Shadowly"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[hM02]
+Name="King_Crusher"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"
+[hM04]
+Name="Deja_"
+Hotkey=P
+Tip=Train |cffffcc00P|reasant
+Ubertip="Basic worker unit. Can harvest gold and lumber, build structures and Repair. Can become Militia. |n|n|cffffcc00Attacks land units and trees.|r"

@@ -1,0 +1,246 @@
+[HERO]
+Name=A Hero
+[npig]
+Name=Pig
+Tip=Invoke Pig
+Ubertip="Call upon the spirit of Pig to save you."
+[nsea]
+Name=Seal
+Tip=Invoke Seal
+Ubertip="Call upon the spirit of Seal to save you."
+[nshe]
+Name=Sheep
+Tip=Invoke Sheep
+Ubertip="Call upon the spirit of Sheep to save you."
+[nsha]
+Name=Sheep
+Tip=Invoke Sheep
+Ubertip="Call upon the spirit of Sheep to save you."
+[nshw]
+Name=Sheep
+Tip=Invoke Sheep
+Ubertip="Call upon the spirit of Sheep to save you."
+[nshf]
+Name=Flying Sheep
+Tip=Invoke Uber Sheep
+Ubertip="Call upon the Uber Sheep to save you."
+[nvul]
+Name=Vulture
+Tip=Invoke Vulture
+Ubertip="Call upon the spirit of Vulture to save you."
+[ninf]
+Name=Infernal
+Tip=Summon Infernal
+Ubertip="Heavy melee unit cloaked in demonic flames that damage nearby enemy ground units. Immune to magic. |n|n|cffffcc00Attacks land units.|r"
+[nba2]
+Name=Doom Guard
+Tip=Summon Doom Guard
+Ubertip="Heavy ranged unit can cast Dispel Magic, War Stomp, Cripple and Rain of Fire. |n|n|cffffcc00Attacks land and air units.|r"
+[nwgt]
+Name=Way Gate
+Tip=Build Way Gate
+Description=Teleports units to a sister Way Gate.
+[nowl]
+Name=Owl Scout
+[now2]
+Name=Owl Scout
+[now3]
+Name=Owl Scout
+[Ntin]
+Name=Tinker
+Propernames=Gazz Stripbolt,Riket Contraption,Mekka Gobb,Tek Piecetinker,Plug Rattletrap,Ratso Steamwheedle
+Hotkey=Z
+Tip=Summon Tinker (|cffffcc00Z|r)
+Ubertip="Cunning Hero, exceptional at disrupting battles and enduring damage. Can learn Pocket Factory, Cluster Rockets, Engineering Upgrade and Robo-Goblin.|n|n|cffffcc00Attacks land units.|r"
+Revivetip=Revive Tinker (|cffffcc00Z|r)
+Awakentip=Revive Tinker (|cffffcc00Z|r)
+[Nrob]
+Name=Tinker
+Propernames=Gazz Stripbolt,Riket Contraption,Mekka Gobb,Tek Piecetinker,Plug Rattletrap,Ratso Steamwheedle
+Hotkey=Z
+Tip=Summon Tinker (|cffffcc00Z|r)
+Ubertip="Cunning Hero, exceptional at disrupting battles and enduring damage. Can learn Pocket Factory, Cluster Rockets, Engineering Upgrade and Robo-Goblin.|n|n|cffffcc00Attacks land units.|r"
+Revivetip=Revive Tinker (|cffffcc00Z|r)
+Awakentip=Revive Tinker (|cffffcc00Z|r)
+[ncgb]
+Name=Clockwerk Goblin
+Tip=Summon |cffffcc00C|rlockwerk Goblin
+Ubertip="Poorly engineered mechanical goblin melee warrior.  Detonates after a certain period of time.|n|n|cffffcc00Attacks land units.|r"
+Hotkey=C
+[ncg1]
+Name=Clockwerk Goblin
+Tip=Summon |cffffcc00C|rlockwerk Goblin
+Ubertip="Poorly engineered mechanical goblin melee warrior.  Detonates after a certain period of time.|n|n|cffffcc00Attacks land units.|r"
+Hotkey=C
+[ncg2]
+Name=Clockwerk Goblin
+Tip=Summon |cffffcc00C|rlockwerk Goblin
+Ubertip="Poorly engineered mechanical goblin melee warrior.  Detonates after a certain period of time.|n|n|cffffcc00Attacks land units.|r"
+Hotkey=C
+[nfac]
+Name=Pocket Factory
+Tip=Summon Pocket |cffffcc00F|ractory
+Ubertip="Factory unit for spawning Clockwerk Goblins via the Pocket Factory ability."
+Hotkey=F
+[nfa1]
+Name=Pocket Factory
+Tip=Summon Pocket |cffffcc00F|ractory
+Ubertip="Factory unit for spawning Clockwerk Goblins via the Pocket Factory ability."
+Hotkey=F
+[nfa2]
+Name=Pocket Factory
+Tip=Summon Pocket |cffffcc00F|ractory
+Ubertip="Factory unit for spawning Clockwerk Goblins via the Pocket Factory ability."
+Hotkey=F
+[ncrb]
+Name=Crab
+Tip=Invoke Crab
+Ubertip="Call upon the spirit of Crab to save you."
+[nhmc]
+Name=Hermit Crab
+Tip=Invoke Hermit Crab
+Ubertip="Call upon the spirit of Hermit Crab to save you."
+[nech]
+Name=Chicken
+Tip=Invoke Chicken
+Ubertip="Call upon the spirit of fearsome Chicken to save you."
+[nfro]
+Name=Frog
+Tip=Invoke Frog
+Ubertip="Call upon the spirit of fearsome Frog to save you."
+[necr]
+Name=Rabbit
+Tip=Invoke Rabbit
+Ubertip="Call upon the spirit of fearsome Rabbit to save you."
+[nrac]
+Name=Raccoon
+Tip=Invoke Raccoon
+Ubertip="Call upon the spirit of fearsome Raccoon to save you."
+[nalb]
+Name=Albatross
+Tip=Invoke Albatross
+Ubertip="Call upon the spirit of Albatross to save you."
+[npng]
+Name=Penguin
+Tip=Invoke Penguin
+Ubertip="Call upon the spirit of Penguin to save you."
+[npnw]
+Name=Penguin
+Tip=Invoke Penguin
+Ubertip="Call upon the spirit of Penguin to save you."
+[nrat]
+Name=Rat
+Tip=Invoke Rat
+Ubertip="Call upon the spirit of Rat to save you."
+[nsno]
+Name=Snowy Owl
+Tip=Invoke Snowy Owl
+Ubertip="Call upon the spirit of Snowy Owl to save you."
+[n000]
+Name="Market of Blood"
+Tip=Build Goblin Merchant
+Description=Sells various magic items.
+[n001]
+Name="Feeding Block"
+Tip="Build a Feeding |cffffcc00B|rlock"
+Description="A block for feeding vampires."
+Ubertip="A building for feeding vampires. Awards 200 experience and 10 gold. BEWARE! Do not build this as a defense, as it is destroyed in one hit by the vampires. Only build this when you have established a base that is very good, too good for the vampires to destroy at their current level/items."
+Hotkey=B
+[n002]
+Name="Black Market Merchant"
+Tip=Build Goblin Merchant
+Description=Sells various magic items.
+[n004]
+Name="Demonic Gate (Opens at 35m mark!)"
+Tip=Build Goblin Merchant
+Description=Sells various magic items.
+[n005]
+Name="Demonic Gate"
+Tip=Build Goblin Merchant
+Description=Sells various magic items.
+[n007]
+Name="Demonic Merchant"
+Tip=Build Goblin Merchant
+Description=Sells various magic items.
+[n009]
+Name="Assassin"
+Tip="Summon |cffffcc00A|rssassin"
+Hotkey=A
+Ubertip="An assassin specially designed trained to kill HARVESTERS. Has a very short blink, with range comparable to Sphere of Doom. The assassin has permanent invisibility, can not be teleported to with Rod of Teleportation, and has spell immunity.|n|nCan only attack Workers(normal), Furbolgs, Fang Harvesters, Fire Spawn Harvesters and Satyr Harvesters."
+[n00A]
+Name="Recipe List (Opens at 15m mark!)"
+Tip=Build Goblin Merchant
+Description=Sells various magic items.
+[n00B]
+Name="Recipe List"
+Tip=Build Goblin Merchant
+Description=Sells various magic items.
+[n00H]
+Name="Vampire Basics"
+Tip=Build Goblin Merchant
+Description=Sells various magic items.
+[n00E]
+Name="Fountain of Mana"
+Tip=Build Fountain of Health
+Description="Regenerates the mana of all non-mechanical units nearby."
+[n00I]
+Name="Fountain of Blood"
+Tip=Build Fountain of Mana
+Description="Regenerates the health of all non-mechanical units nearby."
+[n00J]
+Name=Fel Beast
+Tip=Summon |cffffcc00F|rel Beast
+Hotkey=F
+Ubertip="A specially trained unit that is designed to kill the toolkit Engineers. Has a short range blink, cannot be teleported to and has spell immunity.|n|n|cffFF0000Only attacks Engineers|r"
+[n00L]
+Name=Infernal
+Tip=Summon Infernal
+Ubertip="A powerful mellee unit that can fight together with vampires.|n|nDamage: 105-175 + |cff00ff0010 * Vampire Level|r|nCooldown: 1 sec|nDamage Type: Unholy|nHitpoints: 500 + |cff00ff0050 * Vampire Level|r|nArmor: 15|n|n|cff00ffffCan be upgraded to|r:|n-|cffff8040 |r|cffff8000Invisible Infernal|n|r- |cffff8000Ranged Infernal|r"
+[vPt1]
+Name="Hellfire Pit"
+Tip=Build Tavern
+Description=Allows you to hire various Heroes.
+[vPt2]
+Name="Death's Pit"
+Tip=Build Tavern
+Description=Allows you to hire various Heroes.
+[vSel]
+Name="Options"
+Tip=Build Circle of Power
+Description=A small pedestal that glows with energy.
+[n003]
+Name="Vampiric Soul"
+Tip="Vampiric Soul"
+Description="Soul of a fallen vampire carries dark artifacts that he left behind."
+[n00D]
+Name="Portal"
+Tip="Portal"
+Description="Instantly transports units to another location."
+[n00F]
+Name="Credits"
+Tip=Build Goblin Merchant
+Description=Sells various magic items.
+[hPt1]
+Name="Human Summoning"
+Tip=Build Tavern
+Description=Allows you to hire various Heroes.
+[n00K]
+Name="Frozen Infernal"
+Tip=Summon Infernal
+Ubertip="Heavy melee unit cloaked in demonic flames that damage nearby enemy ground units. Immune to magic. |n|n|cffffcc00Attacks land units.|r"
+[n00N]
+Name="Ranged Infernal"
+Tip=Summon Infernal
+Ubertip="Heavy melee unit cloaked in demonic flames that damage nearby enemy ground units. Immune to magic. |n|n|cffffcc00Attacks land units.|r"
+[n00O]
+Name="Corrupted Infernal"
+Tip=Summon Infernal
+Ubertip="Heavy melee unit cloaked in demonic flames that damage nearby enemy ground units. Immune to magic. |n|n|cffffcc00Attacks land units.|r"
+[n00P]
+Name="Volcanic Infernal"
+Tip=Summon Infernal
+Ubertip="Heavy melee unit cloaked in demonic flames that damage nearby enemy ground units. Immune to magic. |n|n|cffffcc00Attacks land units.|r"
+[n00G]
+Name="Infernal Meteor"
+Tip="Summon Infernal Meteor"
+Ubertip="The Infernal Meteor can fly. It can also detonate itself to destroy all harvesters within a 200 radius.|n|nDamage: 240-260|nCooldown: 2 sec|nDamage Type: Unholy|nHitpoints: 450|nArmor: 0|n|n|cffc0c0c0Available at 15 minute mark.|r"
