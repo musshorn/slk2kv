@@ -1,9 +1,7 @@
 import os
-import re
 import linecache
-import fileinput
-from os.path import basename
- 
+import re
+
 #values i want from UnitBalance.slk 
 kvdict_bal = {
 'X23': '"StatusHealth"',
@@ -36,8 +34,8 @@ kvdict_weapons = {
 'X33': '"AttackAnimationPoint"',
 'X0': '"AbilityUnitDamageType"'
 }
- 
-fileout = open("npc_units_custom.txt", 'a')
+
+fileout = open("npc_units_custom.txt", 'w')
  
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
@@ -57,13 +55,14 @@ wCols = {}
 
 #gets the proper unit names to replace 4 char wc3 unit ids 
 for sf in os.listdir(os.getcwd()):
-    if 'UnitStrings' in basename(sf):
+    if 'UnitStrings' in os.path.basename(sf):
         f = open(sf)
         for line in f:
             if '[' in line[0]:
                 unitID = line[1:-2]
-                namedict[unitID] = re.sub("[^a-zA-Z 0-9]", "", next(f)[5:])
-    if '.slk' in basename(sf):
+                unitString = next(f)[5:]
+                namedict[unitID] = re.sub("[^a-zA-Z 0-9]", "", unitString)
+    if '.slk' in os.path.basename(sf):
         slks.append(sf)
  
 unitIndex = 0
@@ -81,7 +80,7 @@ for num, line in enumerate(f):
         continue 
     if 'Y' in k or 'Y' and ';K' in v or 'Y2;'in v:
         bCols[unitIndex] = num
-        unitIndex = unitIndex + 1
+        unitIndex += 1
 
 unitIndex = 0
 
@@ -92,7 +91,7 @@ for num, line in enumerate(f):
         continue
     if 'Y' in k or 'Y' and ';K' in v or 'Y2;'in v:
         dCols[unitIndex] = num
-        unitIndex = unitIndex + 1
+        unitIndex += 1
 
 f = open("UnitUI.slk")
 for line in f:
@@ -101,7 +100,7 @@ for line in f:
         continue
     if 'X8' in k:
         uCols[unitIndex] = num
-        unitIndex = unitIndex + 1
+        unitIndex += 1
 
 unitIndex = 0
 
@@ -112,27 +111,24 @@ for num, line in enumerate(f):
         continue
     if 'Y' in k or 'Y' and ';K' in v or 'Y2;'in v:
         wCols[unitIndex] = num
-        unitIndex = unitIndex + 1
+        unitIndex += 1
 
 unitIndex = 1
-
 #make a dict of all unit names and their corresponding ids
 f = open("UnitBalance.slk")
 for num, line in enumerate(f):
-    k, temp, v = line[2:].partition(';')
-    if re.sub("[^a-zA-Z 0-9]", "", v)[1:] in namedict and num > 64:
-       # print(k)
-        v = namedict[((re.sub("[^a-zA-Z 0-9]", "", v))[1:])]
-        unitNames[unitIndex] = v
-        unitIndex = unitIndex + 1
+    if len(line.split(';')) == 3:
+        unitKey = line.split(';')[2][1:]
+        if re.sub("[^a-zA-Z 0-9]", "", unitKey) in namedict and num > 64:
+            v = namedict[re.sub("[^a-zA-Z 0-9]", "", unitKey)]
+            unitNames[unitIndex] = v
+            unitIndex += 1 
 
 
 #for each unit, currently limited at 5 for testing, use unitMax if you want all of them
 for i in range (1, unitMax - 2):
-   # print("Writing unit " + str(i) + "/" + str(unitMax - 2))
 
-
-    fileout.write('"' + re.sub(" ", "_", unitNames[i]) + '"' + '\n' + '{' + '\n')
+    fileout.write('"' + unitNames[i].replace(" ","_").strip() + '"' + '\n' + '{' + '\n')
     #for each possible value
     for num in range(bCols[i], bCols[i + 1]):
 
@@ -160,7 +156,6 @@ for i in range (1, unitMax - 2):
                 #i think write makes one anyway 
                 text = ('\t\t' + kvdict_bal[k] + '\t' + '\"' + v.strip("\r\n") + '\"' + '\n')
                 fileout.write(text)
-                linecache.clearcache()
 
     for num in range(dCols[i], dCols[i + 1]):
 
@@ -170,7 +165,7 @@ for i in range (1, unitMax - 2):
                 v = v.lstrip('K')
                 text = ('\t\t' + kvdict_data[k] + '\t' + '\"' + v.strip("\r\n") + '\"' + '\n')
                 fileout.write(text)
-                linecache.clearcache()
+
 
     for num in range(wCols[i], wCols[i + 1]):
 
@@ -204,5 +199,4 @@ for i in range (1, unitMax - 2):
                 v = v.lstrip('K')
                 text = ('\t\t' + kvdict_weapons[k] + '\t' + '\"' + v.strip("\r\n") + '\"' + '\n')
                 fileout.write(text)
-                linecache.clearcache()
     fileout.write('}' + '\n')
